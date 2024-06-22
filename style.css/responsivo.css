@@ -1,0 +1,77 @@
+@media(max-width: 700px){
+  #sobreNos{
+    padding-top: 1rem;
+    margin: 0;
+    padding-bottom: 0px;
+  }
+  .container-maior{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+  }
+  .main-img{
+    display: none;
+  }
+}
+/* -------sobre-------- */
+@media (max-width: 700px) {
+  .titulo-servicos{
+    font-size: 19px;
+  }
+  .para-servicos{
+    font-size: 15px;
+  }
+}
+/* -------CARDS------- */
+@media (max-width: 700px) {
+  .texto{
+    padding-top: 27rem;
+    height: 50%;
+    width: 100%;
+  }
+  .petiscos-1{
+    background-color: black;
+    text-align: start;
+    color: aliceblue;
+    font-size: 10.5px;
+  }
+  section .cardx{
+    display: none;
+  }
+  .cardx{
+    display: none;
+  }
+}
+/* -------ATENDIMENTO------- */
+@media (max-width: 700px) {
+  #atendimento{
+    margin-top: -4rem;
+  }
+  .meio-site{
+    width: 100%;
+  }
+  .img-container{
+    max-width: 600px;
+    width: 115%;
+    height: 100%;
+  }
+  .container-atendimento{
+    font-size: 19px;
+    width: 128%;
+    height: 100%;
+    padding-left: 3.5rem;
+  }
+}
+/* ------RAÇÕES SELECIONADAS------ */
+@media (max-width: 700px) {
+  .continere{
+    margin-top: -3rem;
+    height: 93vh;
+  }
+  .container-titulo{
+    padding: 1rem;
+    font-size: 19px;
+  }
+}
