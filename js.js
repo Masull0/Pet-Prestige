@@ -14,18 +14,3 @@ function clicou ( imagem ) {
 interna.forEach( clicou );
 
 // ------------imagem 02---------------
-
-const galeria = document.querySelectorAll('interna-02 img');
-
-function truque( ) {
-  const clicki = document.querySelector('#prinxipal');
-  const trocar = event.currentTarget;
-  clicki.src = trocar.src;
-  clicki.alt = trocar.alt;
-}
-
-function galerea (imagenx) {
-  imagenx.addEventListener('click', truque );
-}
-
-galeria.forEach( galerea )

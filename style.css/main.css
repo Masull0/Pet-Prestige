@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap");
 /* -----SOBRE NÓS------*/
-.main-sobre{
+.main-sobre {
   width: 100%;
   height: 80vh;
   padding: 3rem;
   background-color: #dbd9d928;
 }
-#sobreNos{
+#sobreNos {
   text-align: center;
   padding: 0px 0px 3rem 0px;
 }
-.main-h2{
+.main-h2 {
   font-size: 21px;
   padding-right: 2rem;
 }
-.main-img{
+.main-img {
   width: 100%;
 }
-.img-main{
+.img-main {
   width: 70%;
   display: flex;
   padding-left: 50rem;
 }
-.main-flex{
+.main-flex {
   display: flex;
   align-items: center;
   text-align: center;
 }
 /* -------FIM DO SOBRE NÓS--------- */
 /* -----CATEGORIA SERVIÇOS-----*/
-#servicos{
+#servicos {
   width: 100%;
   background-color: #363636;
   height: 85vh;
 }
-.container-principal{
+.container-principal {
   display: flex;
   align-items: end;
   gap: 2rem;
@@ -42,7 +42,7 @@
   height: 50%;
   justify-content: center;
 }
-.titulo-servicos{
+.titulo-servicos {
   text-align: center;
   color: aliceblue;
   text-transform: uppercase;
@@ -51,20 +51,20 @@
   padding-top: 2em;
   font-style: italic;
 }
-.para-service{
+.para-service {
   align-items: center;
   text-align: center;
   width: 100%;
   height: 25vh;
-  padding-top:2rem ;
+  padding-top: 2rem;
 }
-.para-servicos{
+.para-servicos {
   color: #fff;
   text-align: center;
   font-size: 18px;
   font-weight: 700;
 }
-.texto{
+.texto {
   padding: 3rem;
 }
 .card {
@@ -83,24 +83,25 @@
   box-shadow: 0px 0px 10px 1px #000000ee;
   border-radius: 5px;
 }
-.img-card{
+.img-card {
   width: 100%;
   height: 100%;
 }
-.petiscos{
+.petiscos {
   padding: 1rem 0 2rem 0;
   text-transform: uppercase;
   align-items: center;
   text-align: center;
 }
-.petiscos-1{
+.petiscos-1 {
   width: 100%;
   height: 100%;
   font-size: 15px;
   align-items: center;
   text-align: justify;
 }
-.front, .back {
+.front,
+.back {
   background-color: #151515;
   position: absolute;
   width: 100%;
@@ -120,11 +121,19 @@
 }
 .back::before {
   position: absolute;
-  content: ' ';
+  content: " ";
   display: block;
   width: 160px;
   height: 160%;
-  background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ff9966,
+    #ff9966,
+    #ff9966,
+    #ff9966,
+    transparent
+  );
   animation: rotation_481 5000ms infinite linear;
 }
 .back-content {
@@ -156,7 +165,6 @@
   transform: rotateY(180deg);
   color: white;
   align-items: center;
-
 }
 .front .front-content {
   position: absolute;
@@ -202,38 +210,37 @@
   object-position: center;
 }
 /* ------- ATENDIMENTO --------- */
-.containeris{
+.containeris {
   background-color: #dbd9d928;
   position: relative;
   padding: 5rem;
   width: 100%;
   height: 85vh;
 }
-#atendimento{
+#atendimento {
   text-align: center;
   text-transform: uppercase;
   padding: 1.3rem 0px 4rem 0px;
 }
-.container-atendimento{
+.container-atendimento {
   padding-left: 5rem;
   padding-top: 3rem;
   font-size: 32px;
   width: 100%;
   height: 100%;
   color: #363642;
-
 }
-.meio-site{
+.meio-site {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
 }
-.img-container{
+.img-container {
   height: 80%;
   width: 90%;
 }
 /* ------RAÇÕES--------- */
-.continere{
+.continere {
   display: flex;
   justify-content: center;
   padding: 8rem;
@@ -241,48 +248,48 @@
   width: 100%;
   background-color: #363636;
 }
-.container-titulo{
+.container-titulo {
   text-align: center;
   font-size: 42px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #000000;
   padding-top: 2rem;
 }
-.click{
+.click {
   display: block;
   text-transform: uppercase;
   color: #fff;
   font-size: 38.4px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.contaner-iimagens{
-  width: 125vw;
+.contaner-iimagens {
+  width: 100vw;
 }
-.interna{
+.interna {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.interna img{
-  margin: .5rem;
+.interna img {
+  margin: 0.5rem;
   cursor: pointer;
   border: 3px solid yellow;
   padding: 3rem;
   width: 20%;
 }
-.cor{
+.cor {
   background-color: rgb(238, 238, 21);
 }
-#principall{
-  background-color: #365463;
-  border: 3px solid yellow;
+#principall {
+  background-color: rgb(163, 132, 84);
+  border: 3px solid #fff;
   width: 150%;
   height: 95%;
   padding: 2rem 0 0 0;
 }
-#principall img{
+#principall img {
   width: 100%;
   height: 100%;
 }
